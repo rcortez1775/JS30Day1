@@ -1,8 +1,11 @@
 html {
     font-size: 10px;
     background: url(overwatch.jpg) center;
+    background-position: center;  
+    background-repeat: no-repeat;
     background-size: cover;
-  }
+    background-attachment: fixed;
+} 
   
   body,html {
     margin: 0;
@@ -14,13 +17,13 @@ html {
     text-align: center;
     font-size: 35px;
     font-family: 'Permanent Marker', cursive;
-    color: #ffc600;
+    color: #ffbd07ee;
+    
   }
   
   .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
   }
